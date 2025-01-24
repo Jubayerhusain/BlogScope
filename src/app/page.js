@@ -21,7 +21,7 @@ const Home = async () => {
           <div key={post.id} className="card hover:bg-blue-50 bg-base-100 shadow-xl">
           <div className="card-body">
           <Link href={`/api/blog/${post.id}`}>
-              <p className='text-xl font-bold'>{post.title}</p>
+              <p className='text-xl font-bold hover:text-red-400 hover:underline'>{post.title}</p>
             </Link>
             <p>{post.body}</p>
             <div className="card-actions justify-end">
