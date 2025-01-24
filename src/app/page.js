@@ -19,14 +19,15 @@ const Home = async () => {
       {
         data.map((post)=>(
           <div key={post.id} className="card hover:bg-blue-50 bg-base-100 shadow-xl">
-          
           <div className="card-body">
-          <Link href={`/auth/blog/${post.id}`}>
+          <Link href={`/api/blog/${post.id}`}>
               <p className='text-xl font-bold'>{post.title}</p>
             </Link>
             <p>{post.body}</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Details</div>
+              <Link 
+              href={`/api/blog/${post.id}`}
+              className="badge badge-outline">Details</Link>
             </div>
           </div>
         </div>
