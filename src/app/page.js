@@ -7,12 +7,10 @@ const Home = async () => {
     <div className='min-h-screen'>
       {/* Bannar section */}
       <Bannar />
-      <div className='w-7/12 mx-auto'>
+      <div className='mx-auto'>
         <h1 className='text-center mt-20 text-5xl text-gray-700 font-bold'>Our Blogs</h1>
-        <label className="input w-96 mx-auto my-8 input-bordered flex items-center gap-2">
+        <label className="input w-6/12  mx-auto my-8 input-bordered flex items-center gap-2">
         <input type="text" className="grow" placeholder="Search" />
-        <kbd className="kbd kbd-sm">⌘</kbd>
-        <kbd className="kbd kbd-sm">K</kbd>
       </label>
       </div>
       <div className=" my-12 gap-5 grid 2xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
