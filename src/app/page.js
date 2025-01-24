@@ -3,7 +3,6 @@ import Bannar from './../Components/Bannar/Bannar';
 const Home = async () => {
   const posts = await fetch ('https://jsonplaceholder.typicode.com/posts')
   const data = await posts.json()
-  console.log(data);
   return (
     <div className='min-h-screen'>
       {/* Bannar section */}
