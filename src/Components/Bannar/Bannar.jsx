@@ -9,7 +9,7 @@ const Bannar = () => {
         <h1 className="text-4xl font-semibold mb-4">Welcome to BlogScop</h1>
         <p className="text-xl mb-8">Discover amazing content from a community of creative bloggers.</p>
         <a href="#explore" className="bg-orange-400 text-gray-100 px-8 py-3 rounded-full text-lg font-bold hover:bg-orange-500">
-          Explore Now
+          Explore Now !
         </a>
       </div>
     </section>
